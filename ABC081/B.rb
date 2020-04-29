@@ -1,5 +1,5 @@
-n = gets.to_i
-a = gets.chomp.split('').map(&:to_i)
+_s = gets.chomp.to_i
+a = gets.chomp.split(' ').map(&:to_i)
 
 count = 0
 
